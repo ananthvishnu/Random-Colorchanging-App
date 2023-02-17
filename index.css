@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+.btn{
+    font-family: fantasy;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    background-color: gray;
+    padding: 10px 25px;
+    border-radius: 100%;
+    letter-spacing: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 8px 3px 8px;
+}
+
+btn:hover{
+    opacity: 70%;
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow:  
+    rgba(240, 46, 170, 0.4) 0px 5px,
+    rgba(240, 46, 170, 0.3) 0px 10px,
+    rgba(240, 46, 170, 0.2) 0px 15px,
+    rgba(240, 46, 170, 0.1) 0px 20px,
+    rgba(240, 46, 170, 0.05) 0px 25px,
+;
+}
+
+.btn::selection{
+    color: none;
+    background: none;
+}
